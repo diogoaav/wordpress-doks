@@ -1,5 +1,5 @@
-# Wordpress on ECS
-This project contains `terraform` and `packer` files to provision a Wordpress service on top of AWS EC2 Container Service. It deploys by default in region `us-west-2` and spans two availability zones.
+# Wordpress on DOKS
+This project contains `terraform` and `packer` files to provision a Wordpress service on top of DigitalOcean Kubernetes DOKS Service. It deploys by default in region NYC3.
 
 ## Instructions
 As we're using AWS `ECR` to store our docker containers and that our `ECS` cluster is pulling from it, we'll need to deploy our infrastructure first and then build and push our Wordpress container with `packer`.
